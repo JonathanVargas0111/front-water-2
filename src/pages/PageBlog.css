@@ -1,0 +1,23 @@
+.main-page-blog{
+    display: flex;
+    flex-direction: column; 
+    box-sizing: border-box;
+}
+.btn-close-menu{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+@media (min-width: 950px) {
+    .main-page-blog{
+        flex-direction: row;
+        justify-content: space-between;
+    }    
+    .main__aside{
+        width: 20%;
+    }
+    .main__grid-post{
+        width: 80%;
+    }
+}
+

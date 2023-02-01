@@ -1,0 +1,30 @@
+/* :root {
+  --theme-color: white;
+  --primary-color: #124f88;
+  --secundary-color: #F7C331;
+  --text-color-inverse: white;
+  --text-color: black;
+  --navbar-shallow-color: #e5e5e5;
+  --menu-mobile-background-color: #3A4460;
+} */
+
+:root {
+  --theme-color:  hsl(216, 50%, 16%);
+  --primary-color: hsl(217, 54%, 11%);
+  --secundary-color: hsl(215, 51%, 70%);
+  --text-color-inverse: hsl(178, 100%, 50%);
+  --text-color: hsl(0, 0%, 100%);
+  --navbar-shallow-color: #e5e5e5;
+  --menu-mobile-background-color:hsl(217, 54%, 11%);
+}
+
+body {
+  font-family: 'Outfit','Montserrat', sans-serif;
+  background-color: var(--theme-color);
+  color: var(--text-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}

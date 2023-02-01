@@ -1,0 +1,25 @@
+.servicios{
+    width: 90%;
+    margin: 0 auto;
+    padding: 2%;
+}
+
+.servicios__title{
+    color: hsl(178, 100%, 50%);
+    font-size: 3rem;
+}
+.grid__servicios{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+.new-post__text{
+    font-size: 1.8rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .grid__servicios{
+        display: flex;
+        flex-direction: row;
+    }
+}

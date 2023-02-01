@@ -1,0 +1,21 @@
+/*card-body*/
+.card-body{
+    width: 100%;
+    padding: 10px;
+    margin: 0px auto;
+}
+.card-img{
+    width: 30%;
+    height: auto;
+
+}
+
+/*card__title */
+.card__title{
+    font-size: 1.5rem;
+    margin: 20px auto;
+}
+
+.card__description{
+    display: none;
+}
